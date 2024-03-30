@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Elden';
+    src: url('elden.otf') format('opentype');
+    /* Add other font formats (e.g., woff, woff2) for better browser support */
+}
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -16,6 +22,7 @@ body {
 
 .countdown {
     text-align: center;
+    font-family: 'Elden', Arial, sans-serif; /* Apply custom font to countdown timer */
 }
 
 #countdown-text {
