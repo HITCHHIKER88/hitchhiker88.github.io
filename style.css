@@ -1,10 +1,5 @@
-@font-face {
-    font-family: 'Elden';
-    src: url('elden.otf') format('opentype');
-}
-
 body {
-    font-family: 'Elden', Arial, sans-serif; /* Apply custom font to entire body */
+    font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,6 +12,12 @@ body {
 
 .header {
     margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .countdown {
