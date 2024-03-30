@@ -6,10 +6,12 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url('erdtree.png'); /* Set background image */
-    background-size: cover; /* Cover the entire background */
-    background-position: center; /* Center the background image */
+    background-color: black; /* Set background color to black */
     color: white; /* Set font color to white */
+}
+
+.header {
+    margin-bottom: 20px;
 }
 
 .countdown {
