@@ -2,6 +2,18 @@ document.addEventListener('DOMContentLoaded', function() {
     var audio = document.getElementById('background-audio');
     audio.play();
 
+    document.getElementById('hype-button').addEventListener('click', function() {
+        var hypeImage = document.getElementById('hype-image');
+        hypeImage.style.display = 'block'; // Show the hype image
+        setTimeout(function() {
+            hypeImage.style.top = '-100%'; // Move the hype image above the screen
+        }, 10); // Delay for smoother transition
+        setTimeout(function() {
+            hypeImage.style.display = 'none'; // Hide the hype image after animation
+            hypeImage.style.top = '100%'; // Reset the position for next time
+        }, 3000); // Animation duration
+    });
+
     // Target date: June 21st, 00:00:00 (UTC time)
     const targetDate = new Date('2024-06-21T00:00:00Z').getTime();
 
