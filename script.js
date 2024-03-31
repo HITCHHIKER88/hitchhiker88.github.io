@@ -5,12 +5,12 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('hype-button').addEventListener('click', function() {
         var hypeImage = document.getElementById('hype-image');
         hypeImage.style.display = 'block'; // Show the hype image
+        hypeImage.style.top = '100%'; // Reset the position to bottom
         setTimeout(function() {
             hypeImage.style.top = '-100%'; // Move the hype image above the screen
         }, 10); // Delay for smoother transition
         setTimeout(function() {
             hypeImage.style.display = 'none'; // Hide the hype image after animation
-            hypeImage.style.top = '100%'; // Reset the position for next time
         }, 3000); // Animation duration
     });
 
