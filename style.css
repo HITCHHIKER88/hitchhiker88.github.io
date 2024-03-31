@@ -27,9 +27,23 @@ body {
 
 .countdown {
     text-align: center;
-    font-family: 'Elden', Arial, sans-serif; /* Apply custom font to countdown timer */
 }
 
 #countdown-text {
     font-size: 2rem;
+}
+
+#hype-button {
+    font-family: 'Elden', Arial, sans-serif; /* Apply custom font to button text */
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#hype-button:hover {
+    background-color: #0056b3;
 }
