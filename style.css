@@ -47,3 +47,12 @@ body {
 #hype-button:hover {
     background-color: #333; /* Darken button background color on hover */
 }
+
+#hype-image {
+    display: none; /* Initially hide the hype image */
+    position: absolute; /* Set position to absolute for easy manipulation */
+    top: 100%; /* Initially position it below the screen */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    transition: top 3s ease; /* Add transition effect for smooth movement */
+}
